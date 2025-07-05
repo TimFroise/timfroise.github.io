@@ -1,103 +1,57 @@
-
+<!-- index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Froise  Guitars</title>
-  
-<style>
-  body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-  }
-  header {
-    background: #222;
-    color: #fff;
-    padding: 1em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  header .logo {
-    font-size: 1.4em;
-    font-weight: bold;
-  }
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  nav li {
-    margin-left: 1em;
-  }
-  nav a {
-    color: #fff;
-    text-decoration: none;
-  }
-  .section {
-    padding: 2em;
-  }
-  .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
-    justify-content: center;
-  }
-  .card {
-    border: 1px solid #ccc;
-    padding: 1em;
-    max-width: 300px;
-    text-align: center;
-  }
-  .card img {
-    max-width: 100%;
-    height: auto;
-  }
-  form {
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  label, input, textarea {
-    display: block;
-    width: 100%;
-    margin-bottom: 1em;
-  }
-  input, textarea {
-    padding: 0.5em;
-    font-size: 1em;
-  }
-</style>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Froise Guitars</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  
-<header>
-  <div class="logo">Froise Guitars</div>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="available.html">Available Guitars</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+  <header>
+    <h1>Froise Guitars</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="guitars.html">Available Guitars</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-  <section class="section">
-    <h2>Welcome</h2>
-    <p>My journey into guitar building began with a love for both craftsmanship and music. I initially studied engineering and later architecture, both of which gave me a foundation in precision and design — skills that quietly laid the groundwork for luthiery.
+  <main>
+    <img src="HP1.jpg" alt="Workshop image" class="banner" />
 
-In my twenties, I attempted to build my first guitar. It wasn’t perfect, but it planted the seed. I’ve been playing and repairing guitars ever since, learning steadily through hands-on experience and curiosity.
+    <section>
+      <p>My journey into guitar building began with a love for both craftsmanship and music. I initially studied engineering and later architecture, both of which gave me a foundation in precision and design — skills that quietly laid the groundwork for luthiery. In my twenties, I attempted to build my first guitar. It wasn’t perfect, but it planted the seed. I’ve been playing and repairing guitars ever since, learning steadily through hands-on experience and curiosity. A few years ago, I returned to guitar making with greater focus and purpose. Since then, I’ve refined my techniques, improved my setup, and dedicated myself to building instruments that are responsive, balanced, and thoughtfully crafted. Each guitar I build is an expression of my ongoing exploration — shaped by hand, guided by ear, and built with the player in mind.</p>
+    </section>
 
-A few years ago, I returned to guitar making with greater focus and purpose. Since then, I’ve refined my techniques, improved my setup, and dedicated myself to building instruments that are responsive, balanced, and thoughtfully crafted.
+    <section>
+      <h2>My Processes</h2>
+      <p>Every guitar I build is made by hand, using carefully selected tonewoods that have been aged and matched for resonance. I focus on traditional woodworking techniques, including hand-carved braces, tap tuning, and precision joinery. Each instrument is individually voiced and finished to highlight the natural beauty of the wood.</p>
 
-Each guitar I build is an expression of my ongoing exploration — shaped by hand, guided by ear, and built with the player in mind.</p>
-    <div class="gallery">
-      <img src="home_image.jpg" alt="Guitar building process">
-      <img src="image2.jpg" alt="Workshop or finished guitar">
-    </div>
-  </section>
+      <p>I build each guitar by hand, starting with carefully selected tonewoods chosen for their tonal properties and visual character. I use machines like a bandsaw, table saw, and thicknesser for milling the rough timber, but nearly all the shaping and fitting is done by hand. This includes carving the neck and heel, tuning the struts and braces, and refining the fit of every component.</p>
+
+      <div class="image-row">
+        <img src="HP2.jpg" alt="Shaping braces" />
+        <img src="HP3.jpg" alt="Hand carving the neck" />
+      </div>
+
+      <p>My approach includes tap tuning of the top and back plates to bring out the best resonance from each set of wood. I shape and voice the internal braces by ear and feel, refining them until the response is clear and balanced. I carefully select modern adhesives for strength and stability.</p>
+
+      <p>I shape each neck and carve the heel block to match the guitar’s style, ensuring both comfort and balance. Final setup includes fretwork, nut and saddle shaping, and stringing — all done in-house.</p>
+
+      <p>Over the years, I’ve built much of my own tooling — including a custom drum sander, buffing machine, clamps, and a number of jigs that help maintain precision while keeping the process personal and intuitive. Each of these tools helps me control the build from start to finish, with minimal reliance on mass-production methods.</p>
+
+      <p>For me, guitar building is not just about function — it's about feel, aesthetics, and individuality. Each instrument is a one-of-a-kind reflection of the materials and methods used to create it.</p>
+
+      <div class="image-row">
+        <img src="HP4.jpg" alt="Workshop overview" />
+        <img src="HP5.jpg" alt="Detail work" />
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Froise Guitars</p>
+  </footer>
 </body>
 </html>
